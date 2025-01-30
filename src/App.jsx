@@ -18,9 +18,9 @@ export default function App() {
   return (
     <main>
       <h1>Vai na WebStore</h1>
-      <section>
+      <section className='sectionproduto'>
         {info.map((item) => (
-          <article>
+          <article className='artigoproduto'>
             <img src={item.image} alt="" />
             <h2>{item.title}</h2>
             <h3>R$ {item.price}</h3>
