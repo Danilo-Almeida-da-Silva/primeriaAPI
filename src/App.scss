@@ -5,3 +5,66 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  background-color: #fcc4ff6b;
+}
+
+header {
+  background-color: rgb(88, 0, 88);
+  color: #fcc4ff;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+  }
+
+  img {
+    width: 5vw;
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 5vh 0;
+}
+
+article {
+  border: groove 5px;
+  border-radius: 20px;
+  width: 25vw;
+  height: 60vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(88, 0, 88);
+
+  img {
+    width: 8vw;
+  }
+
+  h2 {
+    width: 95%;
+  }
+
+  p {
+    overflow: scroll;
+    width: 95%;
+  }
+}
+
+footer {
+  background-color: rgb(88, 0, 88);
+  color: #fcc4ff;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
